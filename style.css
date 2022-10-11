@@ -114,3 +114,26 @@ body {
 	height: 0.3rem;
 	background-color: var(--tertiary-color);
 }
+
+.time {
+	font-size: 3.2rem;
+}
+
+.date {
+	font-size: 1.8rem;
+	letter-spacing: 0.4px;
+}
+
+.date .circle {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	border-radius: 50%;
+	height: 2.4rem;
+	width: 2.4rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 2rem;
+	transition: all 0.5 ease-in;
+	font-size: 1.6rem;
+}
